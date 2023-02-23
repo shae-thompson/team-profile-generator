@@ -28,7 +28,7 @@ generateEmployeeTeam = team => {
                     <div id="bottom">
                         <p>ID Number: ${engineer.id}</p>
                         <p>Email: <a href=mailto:${engineer.email}>${engineer.email}</a></p>
-                        <p>Office Number: <a href=https://github.com/${engineer.github}>${engineer.github}</p>
+                        <p>GitHub: <a href=https://github.com/${engineer.github}>${engineer.github}</p>
                     </div>
             </div>`;
     };
