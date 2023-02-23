@@ -2,17 +2,21 @@
 const Manager = require('../lib/Manager');
 
 // creates manager object 
-test('makes the manager card', () => {
+describe('managerCard', () => {
+    it('makes the manager card', () => {
     const manager = new Manager('Shae', 1, 'shae@email.com');
 
-    expect(manager.name).toEqual(expect.any(String));
-    expect(manager.id).toEqual(expect.any(Number));
-    expect(manager.email).toEqual(expect.any(String));
+    expect(manager.name).toEqual("Shae");
+    expect(manager.id).toEqual(1);
+    expect(manager.email).toEqual("shae@email.com");
+    });
 });
 
 //Gets office number user with getOfficeNumber() 
-test('Gets the manager office number', () => {
+describe('mangerOfficeNumber', () => {
+    it('Gets the manager office number', () => {
     const manager = new Manager('Shae', 1, 'shae@email.com');
 
-    expect(manager.getOfficeNumber()).toEqual(expect.any(String));
+    expect(manager.getOfficeNumber()).toEqual(1);
+    });
 });

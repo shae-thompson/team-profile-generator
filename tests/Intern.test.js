@@ -2,17 +2,21 @@
 const Intern = require('../lib/Intern');
 
 // creates intern object 
-test('makes the intern card', () => {
+describe('internCard', () => {
+    it('makes the intern card', () => {
     const intern = new Intern('Shae', 1, 'shae@email.com');
 
-    expect(intern.name).toEqual(expect.any(String));
-    expect(intern.id).toEqual(expect.any(Number));
-    expect(intern.email).toEqual(expect.any(String));
+    expect(intern.name).toEqual("Shae");
+    expect(intern.id).toEqual(1);
+    expect(intern.email).toEqual("shae@email.com");
+    });
 });
 
 //Gets School user with getSchool() 
-test('Gets the intern School user', () => {
+describe('internSchool', () => {
+    it('Gets the intern School user', () => {
     const intern = new Intern('Shae', 1, 'shae@email.com');
 
-    expect(intern.getSchool()).toEqual(expect.any(String));
+    expect(intern.getSchool()).toEqual("school");
+    });
 });
