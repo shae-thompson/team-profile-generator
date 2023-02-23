@@ -5,6 +5,11 @@
   ## Description
 
   This project will allow the user to generate a profile with basic information for all team members including managers, interns and engineers.
+  
+  Here is a link to a video walk through: https://drive.google.com/file/d/1tzUMTzNFGElYocG-XIll2TLtjrohJwx8/view\
+  
+  ![127 0 0 1_5500_team-profile-generator_dist_index html](https://user-images.githubusercontent.com/117495361/220841009-5a91d3be-b455-4952-b28c-b1ed48cd5970.png)
+
 
   ## Table of Contents
 
